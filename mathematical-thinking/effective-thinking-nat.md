@@ -1,4 +1,4 @@
-# Effectivee Thinking - Notes and Thoughts
+# Effective Thinking - Notes and Thoughts
 
 This course is all about learning to think more effectively. The strategies and concepts discussed in this course should be applicable to most of our lives, not just mathematics.
 I'm following [this course](https://courses.edx.org/courses/UTAustinX/UT.9.01x/1T2014) while also at the same time following the [Introduction to Mathematical Thinking](https://www.coursera.org/course/maththink) from Stanford at Coursera.
