@@ -21,8 +21,11 @@ To give this repository some consistency I'm naming the directories and files in
 
 ## Course in progress
 
++ Misc
+  + [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn) (Start: 10 Oct, 2015)
 + Mathematical Thinking:
-  + [Effective Thinking](https://courses.edx.org/courses/UTAustinX/UT.9.01x/1T2014)
+  + [Effective Thinking](https://courses.edx.org/courses/UTAustinX/UT.9.01x/1T2014) (Start: 10 Oct, 2015)
+
 
 ## Courses Complete
 
