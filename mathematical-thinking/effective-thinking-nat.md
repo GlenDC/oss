@@ -69,4 +69,12 @@ All in all, I took the time to reflect on 5 elements of Effective thinking. I re
 
 ### The puzzles of the pirates and the admirals
 
-// [TODO]
+> There are 3 pirates and 3 admirals that want to cross a river. They can do this with a boat that they have that fits 2 people at the same time and needs at least 1 person in the boat to move. You can't have more pirates than admirals at any side at any given time as that would give problems. How do you move them all to the other side from the river?
+
+This puzzle was easier for me to solve, and just by trying I managed to do it quite fast. Which is an important lesson: **Always try**! Although you should remember not to get ahead of yourself. Fairlure is also fine and you will get experience either way. A last tip and lsson learned from this and other bonus puzzles is that you should always make sure to **concider each possibility**.
+
+## Section 1
+
+### Understanding simple things deeply: Multiplication
+
+
