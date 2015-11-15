@@ -34,3 +34,14 @@ This also means that these Synopsees and neurons never stop growing, no mather h
 
 All in all, this first week was very interesting. It was already quite insightfull, and I bought Barbara's book, so that I can read it over the course of the next weeks.
 
+## Week 2
+
+Recalling was a big topic this week. We learned for example that it isn't very useful to learn by reading your theory over and over again. Instead it is more useful to read it and than try to recall what you just read and what it was about. This is also a much better way at this point than making a diagram on paper to find the relationship between the different elements you just learned. The reason for this being that you're still developing the initial knowledge pilars and aren't ready yet to make connections between them.
+
+Funny of that was all that I recalled after following this week in a rather distracting environment, so redoing week #2 was the only sane way to progress.
+
+Rewatching the first part of week made me realize that it was mostly about chunking and recalling was just part of the process. A chunk is the result of forming connections between concepts and ideas you learn. This is quite handy as we can only hold about 4 items in our active memory as seen earlier. When learning you can actively focus on forming chunks. Skipping quickly through a chapter before reading it decently for example allows you to form ideas of the stuff you'll be learning, giving you the mental anchors you can use during the actual in-depth learning. Once you form those chunks it's important to also learn to place them into context. Here it's all about learning to know when to apply which tool. Learning in different environments can also help as it allows you decouple the location from the actual knowledge. Finally as I discussed earlier recalling has significant benifits.
+
+Also not to forget is that in a lot of cases it's also important that you practice a concept yourself. This can be done by doing excicercices, reflecting/recalling what you have learned or simply practice testing yourself.
+
+We also learned about the illusion of knowledge. This is when you fool yourslf that you know something by reading something in a book or by searching it on the internet. This makes you think you master a subject, while in fact you don't. It's also important to also look at a big picture view as it allows you to relate between different fields, even cross-field.
