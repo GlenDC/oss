@@ -1,4 +1,4 @@
-# Learn how to learn
+# learn how to learn
 
 As part of my journey on getting my fundamentals right I wanted to follow this course, after getting a recommendation about this course from OSS as a preperation for its curriculum. I was pleasently surprised that Barbara is one of the tutors. I knew her story from a TD talk she gave where she talked about her late entrance in the world of mathematics and engineering, after hating it for most of her life. It was quite easy for me to relate to what she was saying. So with that motivation being given, it's time to dive in.
 
@@ -45,3 +45,25 @@ Rewatching the first part of week made me realize that it was mostly about chunk
 Also not to forget is that in a lot of cases it's also important that you practice a concept yourself. This can be done by doing excicercices, reflecting/recalling what you have learned or simply practice testing yourself.
 
 We also learned about the illusion of knowledge. This is when you fool yourslf that you know something by reading something in a book or by searching it on the internet. This makes you think you master a subject, while in fact you don't. It's also important to also look at a big picture view as it allows you to relate between different fields, even cross-field.
+
+## Week 3
+
+Week 3 was learning about procastination and how to tame it.
+
+Procastination happens in 4 steps:
+
+   1. _cue_: the environment/mood/situation/action/timing that triggers the habbit
+   2. _routine_: the actual action of the habbit
+   3. _reward_: the reward you give yourself after the routine has been completed (can be unconciousnes)
+   4. _belief_: the reality you belief in
+
+It was also said that procastination is very much related to addiction, in the sense that you look for quick rewards that make you happy now, but make it worse in the long-term. Luckily for us we can actually change our habbits and thus tame our procastinations.
+
+The challenge is that procastination often happens below our concisiouness. The trick is to become aware of it and recognizing the cue. One common cue is that you focuss on the _Product_. So let's say that you have a task to clean the house, the product is that you have well... a clean house. This is painful as it will make you judge the cleaning while you do it and even in your mind before you start. You can see how painfull that looks. So instead you should focus on the _Process_ in which you just use something like the pomadora timer and you just go with the flow of, ah I'll clean the house for 25 minutes today. Once you do that you might realize that your done before the timer is even over.
+
+Another mistake could be that you let yourself get distracted, isolating yourself locational or by using a proper headset with music can help with that. Once your in that routine because of your focus on the process you need to make sure to reward yourself at the end so that this new good habbit can be established within yourself. Your belief will be affected as you realize that you can do it if you just put time in it.
+
+By creating good habbits (which require a little willpower, although not very much thanks to focus on process rather than product) you'll start harnassing your zombie-mode. Excecuting habbits in zombie-mode are automatic and rely therefore not on willpower to do something.
+
+So to sum up, target your bad habbits, create good habbits and reward yourself enough and sufficient!
+
