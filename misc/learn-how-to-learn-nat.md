@@ -65,5 +65,9 @@ Another mistake could be that you let yourself get distracted, isolating yoursel
 
 By creating good habbits (which require a little willpower, although not very much thanks to focus on process rather than product) you'll start harnassing your zombie-mode. Excecuting habbits in zombie-mode are automatic and rely therefore not on willpower to do something.
 
+It's also normal to get negative feelings when beginning work even though you like the subject very much. At that point you need a little willpower to for example start with the homework knowing that you'll focuss on the process thanks to great tricks such as the pomadora timer.
+
+Also planning time is as important as planning working time, so don't try to cram all the work at once because it will bite you in the ass.
+
 So to sum up, target your bad habbits, create good habbits and reward yourself enough and sufficient!
 
