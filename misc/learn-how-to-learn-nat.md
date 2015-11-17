@@ -71,3 +71,10 @@ Also planning time is as important as planning working time, so don't try to cra
 
 So to sum up, target your bad habbits, create good habbits and reward yourself enough and sufficient!
 
+### Part 2 (Memory)
+
+In the second part of week 3 we learned about memory. We learned that the hypocampus is responsible for long term memory and changes over time when you recal memories.
+
+We also learned that tricks can help in retaining our memories and make us more effective learners. Grouping is the first trick and is all about grouping together multiple concepts by forming a sentence (visually) with the first letters of each concept. Memory Palace is the second trick in which you link a visual image of something to a concept and put it in a familiar place (e.g. your house).
+
+As we saw before, spacing is important, which is yet another reason to prevent procastination. Flash cards can help and when properly combined with spacing it helps us making more effective learners. 
