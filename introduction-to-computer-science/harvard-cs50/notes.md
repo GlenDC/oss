@@ -13,3 +13,8 @@ Scratch was firstly introduced and later (week 1) the knowledge that was build i
 In week 1 C got introduced. Students learned the syntax, but it was all still quite high level, especially as a small cs50 module was used to hide gore details such as char pointers to represent strings. A lot of I/O behaviour was also abstracted a way so that students can easily ask a string or number from the user and get it back. There was also a quick and high level overview on the compilation process, practically shown via Clang.
 
 There was some quick command-line fu but nothing fancy and more just core basics. So far so good, and perhaps boring. However I do enjoy the lessons as they are presented in quite a fun way and they have a lot of extra's that make it still worthwhile watching. I do however look forward to the excercices, and hope that the hacker challenges allow me to go as far as I want.
+
+# Week 2
+
+In week 3 we learned about bugs, functions and data representation. This teached about primitive types in C and how float has only a finit amount of possibilities, making it impossible to represent numbers very accuratly when requiring to much detail. ALl in all, it was still rather basic;
+
