@@ -18,3 +18,8 @@ There was some quick command-line fu but nothing fancy and more just core basics
 
 In week 3 we learned about bugs, functions and data representation. This teached about primitive types in C and how float has only a finit amount of possibilities, making it impossible to represent numbers very accuratly when requiring to much detail. ALl in all, it was still rather basic;
 
+I almost forgot, but compilers and their linkers and assemblers also got discussed. We also learned about how to use make in an easy way and how it uses clang automatically with the correct flags when we use `make <program>`. It does surprise me how much job interview questions this first week already answers, if I think back of all the job interviews I did, haha.
+
+# Week 3
+
+... 

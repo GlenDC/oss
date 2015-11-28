@@ -21,13 +21,13 @@ To give this repository some consistency I'm naming the directories and files in
 
 ## Course in progress
 
-+ Misc
-  + [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn) (Start: 10 Oct, 2015)
-+ Mathematical Thinking:
-  + [Effective Thinking](https://courses.edx.org/courses/UTAustinX/UT.9.01x/1T2014) (Start: 10 Oct, 2015)
++ Introduction to Computer Science
+  + [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)
+  + 20/11/2015 - N/A
 
 
 ## Courses Complete
 
-N/A
-
++ Misc
+  + [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
+    + 10/10/2015 - 28/11/2015

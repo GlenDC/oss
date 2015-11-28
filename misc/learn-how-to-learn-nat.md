@@ -77,4 +77,26 @@ In the second part of week 3 we learned about memory. We learned that the hypoca
 
 We also learned that tricks can help in retaining our memories and make us more effective learners. Grouping is the first trick and is all about grouping together multiple concepts by forming a sentence (visually) with the first letters of each concept. Memory Palace is the second trick in which you link a visual image of something to a concept and put it in a familiar place (e.g. your house).
 
-As we saw before, spacing is important, which is yet another reason to prevent procastination. Flash cards can help and when properly combined with spacing it helps us making more effective learners. 
+As we saw before, spacing is important, which is yet another reason to prevent procastination. Flash cards can help and when properly combined with spacing it helps us making more effective learners.
+
+### Week 4
+
+Exercising is one of the best ways to improve learning, and just like learning new things, it helps generating Neurons. The best time to learn is when your brain is ready for it. For example the fact that the critical period for language acuisition is from 2 years old until about 18 years old. It is however still possible to learn languages afterwards it just is a little harder and takes perhaps more efforts (although less time if doing well).
+
+The prefrontal context of your brain is responsible for your social skills, planning and complex analysis. Losing it would have a really bad impact on your life.
+
+Learning isn't always logical. Sometimes You'll hit a brick wall. That often happens when for example your brain is restructering itself. This is ok, and you shouldn't feel frustrated about it. You'll get over that sooner or later, just don't extend your learning sessions to the point of boredom or frustration because of it.
+
+Interleaving and repetition helps us with learning new things. The real learning comes in doing the hard legwork to try to understand it by doing it all yourselfs, so that you make the neurons yourself, this is much more effective then for example just listening to a lecture. Delibrate practice on difficult issues will bring you to realms you didn't think you could achieve.
+
+Differences in the sides of the brain:
+	    + The right side of the brain helps us get a global perspective (bigger picture);
+	    + The left side of the brain tries to figure out how things work;
+
+This can be a problem when you are to left-centered in your focus. It can generate blind spots as you are certain your approach or result is correct, even though it is not. Study sessions can help with this as others can spot this for you. Just be careful that the study groups don't turn into social groups.
+
+Testing yourselfs during studying is a great way to study more intensively with a more focused brain.
+
+Stress is bound to appear occasionally, it's your response that makes the difference. Try to relax by for example breathing in a relaxed and deep fashion all the way down your belly.
+
+Prepare for a test well, and try to look first through all the questions. Starting with the difficult questions and than quickly moving on to easier ones that you can answers helps you to process the more difficult questions in your mind in a diffuse mode. This diffuse, creative, mode gives you the chance to find he answer while solving easier ones. Another technique is to go through your answers from back to front.
