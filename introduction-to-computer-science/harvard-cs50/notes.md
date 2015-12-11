@@ -155,3 +155,82 @@ Finally GDB was also explained, which on mac has been replaced with LLDB. This a
 
 Overall it has been a fantastic course to follow so far. And it's really cool as I'm also making a Lisp implementation in C, following [this awesome book](http://buildyourownlisp.com). Doing this course and that book together really gives me a much better understanding of C, while entertaining me!
 
+# Week 5 + 6
+
+A string was finally explained and how it works in C. It's an array of characters (type char, 1 byte) which is either on the stack (static) or heap (dynamic).
+
+Therefore `malloc` was also highlighted once again, with a warning sign that every malloc should have a matching call to `free`.
+
+Valgrind is a UNIX utility that can help with detecting memory leaks and buffer overflows. A memory leak occurs when memory that got allocated on the heap, never got freed, for whatever reason. A buffer overflow (and underflow) happens when memory gets touched beyond the boundaries of an array you own. This will crash your program with a segmant fault if your lucky and touch unwanted memory of your program if you're unlucky. Again, valgrind might be able to help with this.
+
+The heap grows down and the stack grows up. If they meet each other you're out of memory.
+
+The stack contains all the local variables. This also contains your parameters of the function you're in and the return address to the instruction of the callee, so that the function can continue executing where it left, when the function you're in is finished.
+
+Therefore it can be very dangerous when you have buffer overflows/underflows as those return addresses could be overwritten so that a hacker can run her malicious code. I studied such attacks before in a course about Software Security. I should make a quick summary about such attacks in another document.
+
+## Linked lists
+
+An array is cool, but the problem is that it takes a fixed amount of memory. One solution could be to reallocate that array whenever you need it bigger or smaller, but this would become quite an expensive routine if you need to do it regularly.
+
+A linked list is another data structure which solves this issue as it grows in a constant manner. It achieves this by working with nodes that reference the next node in the list. Therefore you move through the list by accessing pointer to the next node in the current node.
+
+  	 typedef struct node
+	 {
+		T value;
+		struct node* next;
+	 }
+	 node;
+
+It's however not well suited for random access and therefore you should always add to the front of the linked list whenever possible, rather than in the middle or the end.
+
+Removing is very cheap as it only involves finding the node to be deleted and than reassining its next pointer as the next pointer of the previous node (its parent).
+
+## Hash Table
+
+A hash table is represented by an array and therefore has a fixed capacity. In case you want multiple elements per hash you can store a linked list of values in each slot, rather than a value on its own. This way you're achieving really good performance for accessing, adding and removing elements without to much bad trade-offs.
+
+By doing all of this it combines the best of both worlds. Resulting in practical constant timing for Search, insertion and deleting, while having linear space requirements.
+
+## Trie
+
+Other names for a trie are: digital tree, radix tree or prefix tree.
+It's an ordered tree data structure that is used to store a dynamic set or associative array where the keys are usually strings.
+
+An example:
+     	       -> G -> E -> L -> A
+             /
+     	 -> N -> I -> E
+       /
+     A -> A -> R -> O -> N
+
+An associative example would be where each node has 26 possible children (the alphabet) and a boolean that's set to true whenever all letters that you followed to get here form a word. So in the example above that would mean the the boolean would be true for the letters A, E and N on the complete right. These would indicate that we're having three words in our collection: Aaron, Anie and Angela.
+
+## Stack
+
+A stack is another data collection which can be represented by an Array, a linked list and other types of primitive data collections. It works in a "Last In First Out" principle". This means that whatever you add last, you'll remove first.
+
+## Queue
+
+A queue works similar to the stack, except that you now work with a principle of "First In, First Out", which is more fair in our real world. Again this could be represented by an array, linked list and other primitive data collections.
+
+## Tree
+
+A tree is based on a real tree where you have leafs and branches, therefore the name.
+It can be represented by a node that can contain any amount of children nodes. The node is called a branch if it has child nodes and a leaf if has no children and therefore is the end point of a branch. The first node has no parent, has optionally children and is called the root node.
+
+## Binary Search Tree
+
+A Binary Search Tree is a special kind of tree in which each node has only a maximum of 2 children, a left and a right node. It is ordered in a way such that the left node has a value less than or equal to its own value. The right node has a value greater than its own value. This way you can search very easily, and in the exact same way as you would implement binary search for an array.
+
+A Hash Table, Trie, Stack, Queue, Tree and Binary Search Tree are examples of higher-order Data Collections. They are called higher order because they are implemented using lower-order or so-called primitive Data Collections. Examples of primitive Data Collections are an Array and Linked List.
+
+## Reflections on the homework
+
+The homework was quite interesting, but not very challenging. Haven't done the Hacker Challenge yet though. In PSET4 you had to learn to understand the format of a Windows BMP files and its Headers using a provided C Header File that contained the structures that represent the layout of such headers. This was quite interesting, but nothing new due to my experience in the game industry, it was however still very interesting. Another challenge was to recover JPEG files from an erased memory card, which was interesting as it showed just how easy it is to recover deleted pictures. If you know the format of the memory (e.g. FAT) you know the size of the blocks and can therefore easily go through the entire disk and check the first few bytes of each block to see if you're dealing with a picture. You can eventually go even more advanced by implementing a decoder for JPEG files so that you actually know where to stop, but that wasn't needed for this challenge. It might be something they ask you in the hacker edition of PSET4, but I'm not sure.
+
+That challenge was also linked to an article that talked about security related to erasing hard disks and repurposed hard drives. As a user you can for example make sure to overwrite all erased memory with zero characters `\0`. According to some people that isn't enough as it turns out that you can still recover data based on the magnetic fields via special-purpose hardware. Therefore to be really safe you could overwrite the erased memory several times with random characters. You can use free software to speed up this process. Using software does however expose you to possible bugs of that software, so you better make sure that your software does what you think it does.
+
+All in all the homework and lessons are really setup in a very interesting way. They keep to the basics of introducing computer science but they do know how to make it entertaining while doing so. The challenges are at the same time do-able but make you feel like you're doing something that matters, like recovering pictures as if you were working for the forensic department of a police corps. They also really teach the students to learn to Read The Fucking Manual (RTFM), which is really good. I've seen many students in my university and other universitities where even graduates were still clueless and didn't know they should learn to trust and read the manual for whatever they need.
+
+I'm Looking forward to the second half of this course.
