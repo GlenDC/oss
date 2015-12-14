@@ -234,3 +234,128 @@ That challenge was also linked to an article that talked about security related 
 All in all the homework and lessons are really setup in a very interesting way. They keep to the basics of introducing computer science but they do know how to make it entertaining while doing so. The challenges are at the same time do-able but make you feel like you're doing something that matters, like recovering pictures as if you were working for the forensic department of a police corps. They also really teach the students to learn to Read The Fucking Manual (RTFM), which is really good. I've seen many students in my university and other universitities where even graduates were still clueless and didn't know they should learn to trust and read the manual for whatever they need.
 
 I'm Looking forward to the second half of this course.
+
+# Week 7 and 8
+
+## Servers and TCP / IP
+
+IP (internet protocol), which means that every device contected to the "internet" follows a certain set of rules. An IP address is a unique adress that identifies such devices. They take the form of `#.#.#.#` where each number is in the range of 0-255 (IPv4). In total this means that such an address takes 4 bytes.
+
+Though 4 billion is a high number it's not enough. Therefore there are also private IP Addresses, which are just used within a particular network. So your network will have a unique address and you'll have one within your network. But your public ip address will be the one of your network.
+
+A simple representation of how you might connect to the internet
+
+  	 Laptop <-> Access Point (AP) <-> Switch <-> Router <-> Internet
+	 	    	   	      	    |          |
+					   DHCP       DNS
+
+DHCP stands for Dynamic Host Configuration protocol, and assigns Unique IP addresses dynamically to the devices on the network.
+
+DNS stands for Domain Name System and translates between URL's and IP addresses Hostnames, or fully qualified domain names, allow us to address servers by name rather than numbers.
+
+`nslookup`: Get the IP address from a URL. Note that this could be multiple public IP addresses;
+
+The router is in charge of routing stuff: sending packets, or envolopes of digital information from sender to receiver.
+
+TCP, Transmission Control Protocol, is a technology often used with IP, that guarantees delivery of such packages. Data is split in blocks and send over (different) routes. They are marked such that the receiver can tell that it misses a block of the packet and request the sender to send that block again.
+
+With TCP, we have a set of conventional numbers associated with certain services:
+
+     21: FTP 	    	25: SMTP		53: DNS
+     80: HTTP		443: HTTPS
+
+FTP, or file transer protocol, is used to transfer files. SMTP is for outbound email. DNS uses port 53 for its queries, or questions of what the address of a website might be.
+
+`traceroute` can be used to see the routers that our messages go through when send to a certain IP address.
+
+HTTP stands for HypterText Transfer Protocol and its what web browsers use to speak to web servers.
+
+## HTTP Requests
+
++ GET: is a term for how computers get information.
+
+       GET / HTTP/1.1
+       Host: www.google.com
+       ...
+
+   If all goes well, it should give a response like this:
+       HTTP/1.1 200 OK
+       Content-Type: text/html
+       ...
+
+Websites use HTML, HyperText Markup Language to represent websites in a tree-form. This can be live edited & inspected via developer tools of some browsers. A simple HTML page would result in a simplied tree such as:
+
+	     	   	     --> body -> "Hello, world"
+			   / 
+	 document -> html <
+	 	     	   \
+			     --> head -> title -> "Hello, world"
+
+We'll call this tree the Document Object Model (DOM).
+
+## Servers and Permissions
+
+When files have no read permission for all, you'll get a 403 forbidden HTTP error response when you request it from a server.
+
+## PHP
+
+MVC (model-view-controller) allows you to factor code in a way that many websites tend to use:
+
+    Model (database, WS, etc) <- demand/data -> controller    
+  	     	      	 	     	         /     \
+    USER <------ Request (http, cli, etc) -------       \	
+    	^ 	 	 	     	  		 \
+	 ------- response (html, RSS, xml, Json, etc)     |
+ 	 	 	  	^                         |
+				 \                        V
+				  -----------view (templates layout)
+
+
+Cascading Style Sheets (CSS) allow you to give a more esthetic style to your webpages when combined with your HTML content.
+
+PHP is heavily based on C and is also written in it. It's a programming language ment for the web and can be interleaved with HTML content, for better or for worse.
+
+    #!/usr/bin/env php
+    <?php
+	printf("hello, world\n");
+    <?
+
+PHP is much higher level than C. A hash table for example is already implemented in the form of a dictionary.
+
+In PHP there are many superglobal variables, including:
+
++ $_COOKIE: Information passed via an http cookie
++ $_GET: information passed via an HTTP GET Request
++ $_POST: information passed via an HTTP POST Request
++ $_SERVER: information about the server this script is running on
++ $_SESSION: information stored for the session (related to cookies)
+    + Allows us to store state for a browsing session (such as login info);
+
+You can include other files like this:
+
+    <?php require("include/file.php"); ?>
+
+A cookie can be seen as information stored on the server. That content can be linked to a user thanks to a unique ID that the user gets and is public.
+
+## Introduction to SQL
+
+SQL, Structure Query Language, read as "sequel". It's a language we use to talk to database. SQL databases are relational. This means that the data is organised into one or more tables (relations) of columns and rows, with a unique key identifying each row.
+
++ A table/relation represents one "entity type";
++ A row represents an instance of that type of entity;
+
+SQL has fundamental statments like: `DELETE`, `INSERT`, `UPDATE`, `SELECT`;
+
+SQL databases can be accessed via CLI, but much better is via a GUI such as "PHP MyAdmin".
+
+Just like in C, there are datatypes in SQL including:
+     CHAR (static), VARCHAR (dynamic), INT, BIGINT, DECIMAL, DATATIME, ...
+
+SQL code can be written inline within PHP.
+
+## Final thoughts
+
+After going through Scratch, and C, we are now in the land of (outdated) web technology. It's quite interesting to see that they show the sutdents a variaty of different technologies. Even though they are different and have different goals, they often use the same concepts. It is therefor nice that they try to teach the students this, which should make it much easier for them to switch to new/different technologies when needed for a project or job.
+
+I quite like and have already made a simple website server in C, as a first assignment, which was pretty fun. Looking forward to more!
+
