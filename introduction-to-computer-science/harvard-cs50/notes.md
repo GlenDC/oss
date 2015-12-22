@@ -359,3 +359,97 @@ After going through Scratch, and C, we are now in the land of (outdated) web tec
 
 I quite like and have already made a simple website server in C, as a first assignment, which was pretty fun. Looking forward to more!
 
+# Week 9
+
+Race conditions can be prevented with SQL in the following way:
+
+     START TRANSACTION; // first query
+     UPDATE ...; // Your real queries...
+     COMMIT; // end with this query
+
+SQL Injection Attacks can be prevented by escaping SQL statements before executing them or simply by using POD (PHP Object Data) as that will do the escaping for you.
+
+## Javascript
+
++ Syntax similar to C;
++ No `main` function;
++ Objects are the most common data structure in JavaScript;
++ Javascript is an interpreted language;
++ Javascript gets run on the client-side by the user's browser;
+  + These scripts get run in a sandbox that restrict what the script can do;
+  + Deleting files or sending emails is for example not possible;
++ Event handlers allow you to hook your javascript into events provided by the browser;
+
+## Ajax
+
+Asynchronous Javascript And XML (AJAX) is a technique that allows us to run code Asynchronously which returns Data back to a callback. These days the data is using JSON mostly, rather than XML. This works thanks to HTTP requests (e.g. /GET).
+
+# Week 10
+
+## Conscious of security
+
++ A password manager allows you to use unique and random passwords for all of your accounts, managed by one application that can be unlocked with your master password;
+  + e.g.: [onepassword](agilebits.com/onepassword), [lastpass](lastpass.com);
++ Always check if you are connected with HTTPS, rather than via HTTP;
++ Relying on the auto directs of websites to reach their secure website can be dangerous as it means that you might be giving away your security tokens over an unsecure line before you reach the safe haven;
+  + This kind of attack is called "Session hijacking";
++ Two-Factor authentication is another way to protect yourself;
+  + It's a system that requires you to do an additional step beyond entering your credentials;
+  + e.g.: use your phone to generate a code that you have to enter;
+  + This way your account is safe, even if your credentials have been intercepted;
++ People are also start to get bad habbits related to privacy and security:
+  + Many people have location always enabled, allowing anyone to follow them wherever they go, with amazing accuracy;
+
+## SSL
+
+Secure Sockets Layer (SSL) can be misleading when you're not careful:
+
++ The only clue wether or not you're running HTTPS is by checking your address textbox of your browser, not the website's icon or any other alterted CSS on the website;
++ SSL doesn't protect you against a man-in-the-middle-attack;
+  + The reason why is because it can simply redirect all your HTTPS url's to HTTP addresses;
+
++ Cross-site request forgery (CSRF) is another type of attack:
+  + The goal is to trick the user to click a malicious link;
++ Cross-site scripting (XSS) is an attack that tricks another site into doing something it wouldn't normally;
+  + An example of this is if a website allows you to output un-escaped HTML code, allowing a malicious user to execute javascript for malicious purposes;
+
+## TOR
+
+Tor allows you to redirect your connection via several relays and bridges before you reach your destination, this way it's really hard (and hopefully impossible) to trace your address;
+
+It does this by encrypting your packages in several different layers, each layer gets decrypted by its responding relay;
+
+A simple visualization:
+
+  	 USER -> ENTRY RELAY -> MIDDLE RELAY -> EXIT RELAY -> DESTINATION
+
++ If a malicious user/entity can hijack the ENTRY-Relay, it can stop all outgoing connections;
++ If a malicious user/entity can hijack the EXIT-relay, it can trace back all incoming requests back to the responsible user;
+  + The reason why is because the EXIT-relay does the final decrypt, exposing the original package/content, including all the HTTP headers leading back to the user;
+
+It turns out that if TOR would be just relying on relays, that it would be possible to find most relays, by scanning; Therefore RELAYS are connected by additional nodes called bridges; These bridges provide extra gateways to scramble the route even more;
+
+All relays are collected in a public list available to download for everyone. Bridges however are private. A relay can be anyone, including your own computer. On regular intervals this master list gets updated based on a vote given by all available relays.
+
+## An inspiration lecture by Steve Balmer
+
+### Lessons from Harvard
+
++ Ideas matter: Not every idea is a good idea, be selective and be happy if you have one really good idea in your life;
++ Hard Core: a combination of being tenacious (staying strong), passionate, and commited;
++ Passion: Find  your passion and be good at it. For success you need luck, doing something your passionate about gives you a worst case of doing something you like without having success;
++ Own the results: Do someting and be accountable for those outcomes, since it will make you better at what you do; Being talented and smart isn't enough!
++ Treasure time: Time is finite, spend it well;
++ Storytelling: You need to be able to tell your story to make it, wether it's to look for funding or because you try to convince a girl to be your date;
++ Get in the weight room: Keep working on your skills, you might not be the best now or have an idea what to do, but working on those skills will pay off sooner or later;
+
+### & Beyond
+
++ See the field: Don't be tied into one thing, instead educate yourself in all kind of fields and interests;
++ Be first but commit to be list: ultimately it's comitting to be successful and staying at something that will get you where you want, rather than being the first at something;
++ More than a one trick pony: people with one idea are amazing, those with two good ideas will be lionized in history for their success;
++ Optimism: it's a force multiplier;
+  + Technical and smart people especially tend to be cynical and skeptical, but it's important to be both realistic and optimistic;
+  + An optimistic engineer would react with saying the world is screwed up, but they can fix it;
++ Luck: Luck is a factor in our lives;
++ Everything is a tech problem: Innoovation and technology leads to progress in the world;
