@@ -22,8 +22,8 @@ To give this repository some consistency I'm naming the directories and files in
 ## Course in progress
 
 + Introduction to Computer Science
-  + [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)
-  + 20/11/2015 - N/A
+  + [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6)
+    + 12/01/2016 - N/A
 
 
 ## Courses Complete
@@ -31,3 +31,6 @@ To give this repository some consistency I'm naming the directories and files in
 + Misc
   + [Learning how to learn](https://www.coursera.org/learn/learning-how-to-learn)
     + 10/10/2015 - 28/11/2015
++ Introduction to Computer Science (verified)
+  + [Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#!)
+    + 20/11/2015 - 29/12/2015
