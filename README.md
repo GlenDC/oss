@@ -23,7 +23,9 @@ To give this repository some consistency I'm naming the directories and files in
 
 + Introduction to Computer Science
   + [Introduction to Computer Science and Programming using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-6) - mitx.6.00.1x
-    + 12/01/2016 - N/A
+    + 16/01/2016 - N/A
+  + [From Nand to Tetris](https://www.coursera.org/course/nand2tetris1)
+    + 07/07/2016 - N/A
 
 
 ## Courses Complete
